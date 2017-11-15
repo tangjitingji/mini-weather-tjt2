@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="我是一个临时的textview，这里是选择城市界面"/>-->
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:background="#ffcd2626" >
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="当前城市:北京"
+            android:textColor="#ffffffff"
+            android:textSize="20.0dip" />
+        <ImageView
+            android:id="@+id/title_back"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/base_action_bar_back_normal" />
+        <ImageView
+            android:layout_width="1.0dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/title_back"
+            android:background="#A71717"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <!--热门城市-->
+    <GridLayout
+        android:id="@+id/citys"
+        android:layout_below="@id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <!--第一排-->
+        <Button
+            android:id="@+id/btn_city_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      定位      "
+            android:textSize="15sp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            />
+        <!--定位图标-->
+        <ImageView
+            android:id="@+id/btn_city_00_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:paddingTop="3dp"
+            android:src="@drawable/img_location_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            />
+
+        <Button
+            android:id="@+id/btn_city_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      北京      "
+            android:textSize="15sp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            />
+
+        <Button
+            android:id="@+id/btn_city_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      上海      "
+            android:textSize="15sp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            />
+        <Button
+            android:id="@+id/btn_city_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      广州      "
+            android:textSize="15sp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            />
+
+        <!--第二排-->
+        <Button
+            android:id="@+id/btn_city_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      深圳      "
+            android:textSize="15sp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_city_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      长春      "
+            android:textSize="15sp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btn_city_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      武汉      "
+            android:textSize="15sp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btn_city_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      兰州      "
+            android:textSize="15sp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            />
+
+        <!--第三排-->
+        <Button
+            android:id="@+id/btn_city_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      长沙      "
+            android:textSize="15sp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_city_21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      合肥      "
+            android:textSize="15sp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btn_city_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    安庆    "
+            android:textSize="15sp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btn_city_23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    桐城    "
+            android:textSize="15sp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:background="@drawable/btn_bg"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            />
+    </GridLayout>
+
+    <EditText
+        android:id="@+id/search_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/citys"
+        android:hint="搜索全国城市"
+        android:layout_margin="10.0dip"
+        android:drawableLeft="@drawable/magnifying_glass"
+        android:drawablePadding="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="30.0dip"
+        android:paddingTop="10.0dip"
+        android:maxLines="1"
+        android:background="@drawable/contact_search_box_edittext_keyword_background"
+        android:textColor="#ff000000"
+        android:textColorHint="#ffcccccc"
+        android:textSize="15.0sp"/>
+
+    <!--ListView控件-->
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:scrollbarSize="13dp"
+        android:scrollbarThumbVertical="@color/colorPrimary"
+        android:fadeScrollbars="true"
+        android:layout_below="@+id/search_edit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </ListView>
+
+
+</RelativeLayout>
