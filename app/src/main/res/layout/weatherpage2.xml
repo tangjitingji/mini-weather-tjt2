@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <!--未来三天天气信息-->
+    <RelativeLayout
+        android:id="@+id/weather_fulture2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <!--第四日-->
+        <!--最低~最高温度-->
+        <TextView
+            android:id="@+id/weather04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="35dp"
+            android:paddingBottom="20dp"
+            android:text="3°C~5°C"
+            android:textSize="15sp"
+            android:textColor="#cfffffff"
+            android:layout_alignParentBottom="true" />
+
+        <!--第四日-->
+        <TextView
+            android:id="@+id/weather04_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/weather04"
+            android:paddingLeft="30dp"
+            android:paddingBottom="5dp"
+            android:text="今日 小雪"
+            android:textSize="12sp"
+            android:textColor="#cfffffff" />
+
+        <!--第四日天气图标-->
+        <ImageView
+            android:id="@+id/weather04_pic"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_above="@id/weather04_tips"
+            android:paddingLeft="20.0dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/biz_plugin_weather_qing"/>
+
+        <!--第五日-->
+        <!--最低~最高温度-->
+        <TextView
+            android:id="@+id/weather05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="20dp"
+            android:text="3°C~5°C"
+            android:textSize="15sp"
+            android:textColor="#cfffffff"
+            android:layout_centerHorizontal="true" />
+
+        <!--第五日天气状况-->
+        <TextView
+            android:id="@+id/weather05_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/weather05"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="5dp"
+            android:text= "明日 晴"
+            android:textSize="12sp"
+            android:textColor="#cfffffff" />
+
+        <!--第五日天气图标-->
+        <ImageView
+            android:id="@+id/weather05_pic"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_above="@id/weather05_tips"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="10dp"
+            android:src="@drawable/biz_plugin_weather_yin"/>
+
+        <!--第六日-->
+        <!--最低~最高温度-->
+        <TextView
+            android:id="@+id/weather06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="20dp"
+            android:text="3°C~5°C"
+            android:textSize="15sp"
+            android:textColor="#cfffffff"
+            android:paddingRight="35dp"
+            android:layout_alignParentRight="true" />
+
+        <!--第六日天气状况-->
+        <TextView
+            android:id="@+id/weather06_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/weather06"
+            android:paddingBottom="5dp"
+            android:text= "后日 晴"
+            android:textSize="12sp"
+            android:textColor="#cfffffff"
+            android:paddingRight="30dp"
+            android:layout_alignParentRight="true" />
+
+        <!--第六日天气图标-->
+        <ImageView
+            android:id="@+id/weather06_pic"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_above="@id/weather06_tips"
+            android:paddingRight="20.0dp"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="10dp"
+            android:src="@drawable/biz_plugin_weather_qing"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

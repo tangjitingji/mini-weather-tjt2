@@ -2,13 +2,22 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/libs/pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/pre-dexed/release/pinyin4j-2.5.0_a35d918a2180133d74aad52866f5bb7027181bca.jar" />
+    </item>
+    <item
         is-multidex="true"
-        jar="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/libs/pinyin4j-2.5.0.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="f4dff631cef6f3c9288034bf73a3598419ce512f">
-        <dex dex="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_36cd828f6f966fe3ff3f799b0d9e2081d2570ba0/classes.dex" />
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/transforms/dex/debug/folders/1000/2/pinyin4j-2.5.0_a35d918a2180133d74aad52866f5bb7027181bca/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +27,33 @@
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_91bb687adc8422bd228852e3de216195bcf6597b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="15b38590e8456080b1e9f27f6854c33c92574d2c">
+        <dex dex="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_36cd828f6f966fe3ff3f799b0d9e2081d2570ba0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/libs/BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1b9d32d91699a03ff210ced3dc4c30d2b724e97d">
+        <dex dex="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/transforms/dex/debug/folders/1000/2/BaiduLBS_Android_96272ceb6a1d58fbe27388fa1ee7d38ac3ec7398/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/libs/BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1b9d32d91699a03ff210ced3dc4c30d2b724e97d">
+        <dex dex="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/pre-dexed/release/BaiduLBS_Android_96272ceb6a1d58fbe27388fa1ee7d38ac3ec7398.jar" />
     </item>
 
 </items>

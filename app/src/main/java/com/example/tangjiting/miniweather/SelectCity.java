@@ -4,15 +4,16 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.BaseAdapter;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 import com.example.tangjiting.app.MyApplication;
@@ -32,9 +33,11 @@ public class SelectCity extends Activity{
     private ImageView mBackBtn;
     private ListView mListView;
     private List<City> myList;
+    private List<City> allCities;
+    private ArrayList<City> filterDataList;
     private TextView titleName;
-    private EditText eSearch;
-    private SimpleAdapter adapter;
+    private ClearEditText eSearch;
+    private SelectCityAdapter adapter;
 
     private Button btn_city_00,btn_city_01,btn_city_02,btn_city_03,btn_city_10,btn_city_11,btn_city_12,btn_city_13,btn_city_20,btn_city_21,btn_city_22,btn_city_23;
 
@@ -44,8 +47,6 @@ public class SelectCity extends Activity{
 
         setContentView(R.layout.select_city);
 
-        eSearch=(EditText)findViewById(R.id.search_edit);
-
         Intent intent=this.getIntent();
         String cityName=intent.getStringExtra("cityName");
 
@@ -53,6 +54,7 @@ public class SelectCity extends Activity{
         titleName=(TextView)findViewById(R.id.title_name);
         titleName.setText("当前城市："+cityName);
 
+        //返回按钮
         mBackBtn = (ImageView)findViewById(R.id.title_back);
         //mBackBtn.setOnClickListener(this);
         mBackBtn.setOnClickListener(new View.OnClickListener() {
@@ -162,46 +164,79 @@ public class SelectCity extends Activity{
         });
 
         //显示城市列表
+        adapter = new SelectCityAdapter();
         mListView = (ListView)findViewById(R.id.list_view);
-        adapter=new SimpleAdapter(this, (List<? extends Map<String, ?>>) getdata(),R.layout.listview_item,
-                new String[]{"cityName","cityCode"},
-                new int[] {R.id.cityName,R.id.cityCode});
+//        adapter=new SimpleAdapter(this, (List<? extends Map<String, ?>>) getdata(),R.layout.listview_item,
+//                new String[]{"cityName","cityCode"},
+//                new int[] {R.id.cityName,R.id.cityCode});
         mListView.setAdapter(adapter);
         mListView.setOnItemClickListener(new ItemClickEvent());
 
 
         //监听搜索框文本
+        eSearch=(ClearEditText)findViewById(R.id.search_edit);
         eSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                ////这个方法被调用，说明在s字符串中，从start位置开始的count个字符即将被长度为after的新文本所取代。在这个方法里面改变s，会报错。
 
             }
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 //搜索匹配
-                adapter.getFilter().filter(s);
+                //这个方法被调用，说明在s字符串中，从start位置开始的count个字符刚刚取代了长度为before的旧文本。在这个方法里面改变s，会报错。
+                filterData(s.toString());
+                mListView.setAdapter(adapter);
+//                adap  ter.getFilter().filter(s);
             }
 
             @Override
             public void afterTextChanged(Editable s) {
+                //这个方法被调用，那么说明s字符串的某个地方已经被改变。
 
             }
-        });
 
+            //        根据输入框中的值来过滤数据并更新ListView
+
+            private void filterData(String filterStr){
+                filterDataList = new ArrayList<City>();
+                Log.d("filters",filterStr);
+                if (TextUtils.isEmpty(filterStr)){
+                    for (City city: allCities){
+                        filterDataList.add(city);
+                    }
+                }else {
+                    filterDataList.clear();
+                    for (City city: allCities){
+                        if (city.getAllPY().indexOf(filterStr.toString())!= -1|| city.getAllFirstPY().indexOf(filterStr.toString())!= -1){
+                            filterDataList.add(city);
+                        }
+                    }
+                }
+
+                //根据a-z进行排序
+                adapter.updateListView(filterDataList);
+            }
+
+        });
     }
 
     //继承OnItemClickListener，当子项目被点击的时候触发
     private final class ItemClickEvent implements AdapterView.OnItemClickListener {
 
+//        adapter = new SelectCityAdapter();
         //将选择的城市编码，传给主界面
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-            HashMap<String,Object> city = (HashMap<String,Object>)mListView.getItemAtPosition(position);
-            String select_city_code=city.get("cityCode").toString();
-            Log.d("选择的城市编码：",select_city_code);
-            back(select_city_code);
+
+//                editor.putString("main_city_code",((City)displayCityAdapter.getItem(position)).getNumber());
+//                editor.commit();
+                Intent intent = new Intent();
+                intent.putExtra("cityCode",((City)adapter.getItem(position)).getNumber());
+                setResult(RESULT_OK,intent);
+                finish();
 
         }
     }
@@ -209,7 +244,7 @@ public class SelectCity extends Activity{
     //将选择的城市编码，回传,并跳转到主界面
     public void back(String select_city_code){
         Intent i2 = new Intent();
-        i2.putExtra("select_city_code",select_city_code);
+        i2.putExtra("cityCode",select_city_code);
         setResult(RESULT_OK,i2);
         finish();
     }
@@ -238,26 +273,45 @@ public class SelectCity extends Activity{
         return list;
     }
 
-    /*
-    @Override
-    public void onClick(View v){
-        switch (v.getId()){
-            case R.id.title_back:
-                Intent i = new Intent();
-                //长春
-                i.putExtra("cityCode","101060101");
-                //桐城 报错了！强行退出
-                //i.putExtra("cityCode","101220609");
-                //安庆 报错了！强行退出
-                //i.putExtra("cityCode","101220601");
-                setResult(RESULT_OK,i);
-                finish();
-                break;
-            default:
-                break;
+    class SelectCityAdapter extends BaseAdapter {
+        private List<City> filterCityList;
+
+        public SelectCityAdapter(){
+            allCities = MyApplication.getInstance().getmCityList();
+            filterCityList = allCities;
         }
-     }
-     */
+
+        public void updateListView(ArrayList<City> newfilter){
+            filterCityList  = newfilter;
+            this.notifyDataSetChanged();
+        }
+
+        @Override
+        public int getCount() {
+            return filterCityList.size();
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return filterCityList.get(position);
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            City city = filterCityList.get(position);
+            View view  = View.inflate(SelectCity.this,R.layout.listview_item,null);
+            TextView cityName = (TextView) view.findViewById(R.id.cityName);
+            TextView cityCode = (TextView) view.findViewById(R.id.cityCode);
+            cityName.setText(city.getCity()+"，"+ city.getProvince() + "（" + city.getAllPY()+"）");
+            cityCode.setText(city.getNumber());
+            return view;
+        }
+    }
 
 
 

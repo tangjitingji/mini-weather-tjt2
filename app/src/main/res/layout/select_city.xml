@@ -38,6 +38,7 @@
             android:gravity="center" />
     </RelativeLayout>
 
+
     <!--热门城市-->
     <GridLayout
         android:id="@+id/citys"
@@ -221,7 +222,7 @@
             />
     </GridLayout>
 
-    <EditText
+    <com.example.tangjiting.miniweather.ClearEditText
         android:id="@+id/search_edit"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
