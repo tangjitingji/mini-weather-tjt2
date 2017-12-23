@@ -6,7 +6,6 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
-import android.widget.Toast;
 
 import com.example.tangjiting.bean.TodayWeather;
 
@@ -35,7 +34,7 @@ public class WeatherWidget extends AppWidgetProvider {
             view.setTextViewText(R.id.cur_temp,todayWeather.getType() );
             view.setTextViewText(R.id.low_temp, "低" + todayWeather.getLow());
             view.setTextViewText(R.id.high_temp, "高" + todayWeather.getHigh());
-            Toast.makeText(context,"更新成功",Toast.LENGTH_SHORT).show();
+//            Toast.makeText(context,"更新成功",Toast.LENGTH_SHORT).show();
             return view;
         }
     }

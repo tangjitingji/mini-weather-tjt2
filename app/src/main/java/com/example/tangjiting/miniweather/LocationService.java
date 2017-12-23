@@ -127,8 +127,9 @@ public class LocationService extends Service {
             //String addr = location.getAddrStr();    //获取详细地址信息
             //String country = location.getCountry();    //获取国家
             //String province = location.getProvince();    //获取省份
-            String city = location.getCity();    //获取城市
+            //String city = location.getCity();    //获取城市
             //String district = location.getDistrict();    //获取区县
+            String city = location.getDistrict();    //获取区县
             //String street = location.getStreet();    //获取街道信息
             Log.d("myinfo",city);
             data = city;

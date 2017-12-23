@@ -56,7 +56,7 @@ public class SelectCity extends Activity{
 
         //标题当前城市
         titleName=(TextView)findViewById(R.id.title_name);
-        titleName.setText("当前城市："+cityName);
+        titleName.setText("当前地区："+cityName);
 
         //返回按钮
         mBackBtn = (ImageView)findViewById(R.id.title_back);

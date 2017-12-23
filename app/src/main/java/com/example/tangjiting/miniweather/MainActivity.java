@@ -206,20 +206,6 @@ public class MainActivity extends AppCompatActivity{
         //更新天气信息按钮
         //点击更新按钮
         mUpdateBtn = (ImageView) findViewById(R.id.title_update_btn);
-//        mRefreshAnim = AnimationUtils.loadAnimation(mContext, R.anim.refresh);
-//
-//        public void stopAnim() {
-//            mRefreshAnim.reset();
-//            mRefresh.clearAnimation();
-//            mRefresh.setBackgroundResource(R.drawable.search);
-//        }
-//
-//        public void startAnim() {
-//            mRefreshAnim.reset();
-//            mRefresh.clearAnimation();
-//            mRefresh.setBackgroundResource(R.drawable.title_update_btn);
-//            mRefresh.startAnimation(mRefreshAnim);
-//        }
 
         mUpdateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1126,7 +1112,7 @@ public class MainActivity extends AppCompatActivity{
         protected Void doInBackground(Void... voids) {
             while(isrunning){
                 try {
-                    Thread.sleep(10000);//一个小时自动更新一次
+                    Thread.sleep(360000);//一个小时自动更新一次
                     //Thread.sleep(10000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
