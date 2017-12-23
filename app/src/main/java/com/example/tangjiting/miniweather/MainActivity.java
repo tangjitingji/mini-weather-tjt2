@@ -1,24 +1,37 @@
 package com.example.tangjiting.miniweather;
 
+import android.appwidget.AppWidgetManager;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.IBinder;
 import android.os.Message;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.animation.Animation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.widget.RemoteViews;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.baidu.location.BDAbstractLocationListener;
+import com.baidu.location.BDLocation;
+import com.baidu.location.LocationClient;
+import com.baidu.location.LocationClientOption;
+import com.example.tangjiting.app.MyApplication;
+import com.example.tangjiting.bean.City;
 import com.example.tangjiting.bean.TodayWeather;
 import com.example.tangjiting.util.NetUtil;
 import com.example.tangjiting.util.PinYin;
@@ -44,16 +57,22 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity{
 
+    public LocationClient mLocationClient = null;
+    private MyLocationListener myListener = new MyLocationListener();
+
     //Log信息标签
     private String TAG = "myWeather";
 
     private static final int UPDATE_TODAY_WEATHER = 1;
 
     private ImageView mUpdateBtn;//信息更新按钮
+    private Animation mRefreshAnim;//刷新转圈动画实现
     private ImageView mUpdateBtn_cancel;//信息更新按钮,正在更新时显示
     private ImageView mCitySelect;//城市选择按钮
     private ProgressBar title_update_progressbar;
     private ImageView mShareBtn;//分享按钮
+    private ImageView mLocateBtn;
+    private List<City> citylist;//城市列表
 
     private Context context2 = this;
     private ImageView[] dots2;//导航小圆点
@@ -61,6 +80,11 @@ public class MainActivity extends AppCompatActivity{
     private ViewPagerAdapter vpAdapter2;
     private ViewPager vp2;
     private List<View> views2 = new ArrayList<>();
+
+    //定位
+    private  MyServiceConn myServiceConn;
+    private LocationService.MyBinder binder = null;
+    private static final int UPDATE_LOCATION = 3;
 
     //更新今日天气数据，定义相关的控件对象
     //今日天气详细信息
@@ -75,9 +99,13 @@ public class MainActivity extends AppCompatActivity{
 
 
     //城市编码
-    String cityCode,currentCityCode,selectCityCode;
-
+    String cityCode,currentCityCode,selectCityCode,locateCityCode;
+    String cityname;
     TodayWeather todayWeather = null;
+
+    private TodayWeather todayweather;//今天的天气,给widget使用
+    public static int[] appWidgetIds;//给widget使用
+    private boolean isrunning = false;//后台线程是否运行
 
     //通过消息机制，将解析的天气对象，通过消息发送给主线程，主线程接收到消息数据后，调用updateTodayWeather函数，更新UI界面上的数据
     //处理天气更新的handler
@@ -88,16 +116,39 @@ public class MainActivity extends AppCompatActivity{
                 case UPDATE_TODAY_WEATHER:
                     updateTodayWeather((TodayWeather) msg.obj);
                     break;
+                case UPDATE_LOCATION:
+                    //后台实时更新位置信息，当用户点击定位的时候才更新UI
+                    String cityname = (String) msg.obj;
+                    String cityCode = null;
+                    Log.d("myinfo",cityname);
+                    for(City city:citylist) {
+                        if(cityname.substring(0,cityname.length()-1) .equals( city.getCity()))
+                            cityCode = city.getNumber();
+                    }
+                    SharedPreferences pref = getSharedPreferences("config",MODE_PRIVATE);
+                    SharedPreferences.Editor editor = pref.edit();
+                    editor.putString("cityCode", cityCode);
+                    editor.commit();
                 default:
                     break; }
         } };
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.weather_info);//关联布局
-
+        mLocationClient = new LocationClient(getApplicationContext());
+        //声明LocationClient类
+        mLocationClient.registerLocationListener(myListener);
+        //注册监听函数
+        LocationClientOption option = new LocationClientOption();
+        option.setIsNeedAddress(true);
+//可选，是否需要地址信息，默认为不需要，即参数为false
+//如果开发者需要获得当前点的地址信息，此处必须为true
+        mLocationClient.setLocOption(option);
+//mLocationClient为第二步初始化过的LocationClient对象
+//需将配置好的LocationClientOption对象，通过setLocOption方法传递给LocationClient对象使用
+//更多LocationClientOption的配置，请参照类参考中LocationClientOption类的详细说明
         //程序第一次执行跳转到引导界面
         SharedPreferences preferences = getSharedPreferences("count", MODE_PRIVATE);
         int count = preferences.getInt("count", 0);
@@ -119,6 +170,8 @@ public class MainActivity extends AppCompatActivity{
             Toast.makeText(MainActivity.this, "网络跪了!", Toast.LENGTH_LONG).show();
         }*/
 
+
+
         //选择城市按钮
         mCitySelect = (ImageView)findViewById(R.id.title_city_manager);
         //mCitySelect.setOnClickListener(this);
@@ -136,9 +189,38 @@ public class MainActivity extends AppCompatActivity{
         }
         });
 
+        //定位城市按钮
+        initdata();
+        initLocation();
+        mLocateBtn = (ImageView)findViewById(R.id.title_location);
+        //mCitySelect.setOnClickListener(this);
+        mLocateBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SharedPreferences pref = getSharedPreferences("config",MODE_PRIVATE);
+                String citycode = pref.getString("cityCode", "101010100");
+                queryWeatherCode(citycode);
+            }
+        });
+
         //更新天气信息按钮
         //点击更新按钮
         mUpdateBtn = (ImageView) findViewById(R.id.title_update_btn);
+//        mRefreshAnim = AnimationUtils.loadAnimation(mContext, R.anim.refresh);
+//
+//        public void stopAnim() {
+//            mRefreshAnim.reset();
+//            mRefresh.clearAnimation();
+//            mRefresh.setBackgroundResource(R.drawable.search);
+//        }
+//
+//        public void startAnim() {
+//            mRefreshAnim.reset();
+//            mRefresh.clearAnimation();
+//            mRefresh.setBackgroundResource(R.drawable.title_update_btn);
+//            mRefresh.startAnimation(mRefreshAnim);
+//        }
+
         mUpdateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -170,9 +252,22 @@ public class MainActivity extends AppCompatActivity{
 //                startActivity(Intent.createChooser(intent, getTitle()));
 //            }
 //        });
-
+//        mLocateBtn = findViewById(R.id.title_location);
         //初始化UI控件
         initView();
+    }
+
+    private void initdata() {
+        citylist = MyApplication.getInstance().getmCityList();
+    }
+
+    private void initLocation() {
+        //初始化百度地图service
+        Intent intent = new Intent(this, LocationService.class);
+        myServiceConn = new MyServiceConn();
+        startService(intent);//开启LocationService
+        bindService(intent, myServiceConn, Context.BIND_AUTO_CREATE);//绑定service
+
     }
 
 
@@ -203,7 +298,18 @@ public class MainActivity extends AppCompatActivity{
             }
         }
     }*/
-
+    class MyLocationListener extends BDAbstractLocationListener {
+        @Override
+        public void onReceiveLocation(BDLocation location) {
+            //此处的BDLocation为定位结果信息类，通过它的各种get方法可获取定位相关的全部结果
+            //以下只列举部分获取地址相关的结果信息
+            //更多结果信息获取说明，请参照类参考中BDLocation类中的说明
+            String city = location.getCity();    //获取城市
+            String district = location.getDistrict();    //获取区县
+            cityname = city;
+            Log.d("myinfo",cityname);
+        }
+    }
     //返回主界面时，传递城市代码数据
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
 
@@ -232,12 +338,10 @@ public class MainActivity extends AppCompatActivity{
 
             //提示更新成功
             if(NetUtil.getNetworkState(this) != NetUtil.NETWORN_NONE){
-//                Log.d("myWeather", "网络正常");
 //                queryWeatherCode(select_city_code);
                 Toast.makeText(MainActivity.this,"更新成功啦!",Toast.LENGTH_SHORT).show();
             }
             else {
-//                Log.d("myWeather", "网络跪了");
                 Toast.makeText(MainActivity.this,"网络跪了!",Toast.LENGTH_LONG).show();
             }
         }
@@ -283,6 +387,7 @@ public class MainActivity extends AppCompatActivity{
 
                     //调用parseXML，并返回TodayWeather对象。
                     todayWeather = parseXML(responseStr);
+                    todayweather = todayWeather;//赋值全局变量
                     if (todayWeather != null) {
                         Log.d("myWeather", todayWeather.toString());
 
@@ -683,6 +788,10 @@ public class MainActivity extends AppCompatActivity{
         //获取默认保存的天气信息
         preUpdateWeather();
 
+        isrunning = true;
+        updateAsyn task = new updateAsyn();
+        task.execute();
+
     }
 
     //更新默认选择城市的天气信息
@@ -945,6 +1054,88 @@ public class MainActivity extends AppCompatActivity{
         }
     }
 
-}
 
+    /**
+     * 负责MainActivity和LocationService进行通信的类
+     */
+    class MyServiceConn implements ServiceConnection {
+
+
+        // 服务被绑定成功之后执行
+        @Override
+        public void onServiceConnected(ComponentName name, IBinder service) {
+            // IBinder service为onBind方法返回的Service实例
+            binder = (LocationService.MyBinder) service;
+            binder.getService().setDataCallback(new LocationService.DataCallback() {
+                //执行回调函数
+                @Override
+                public void dataChanged(String str) {
+                    Message msg = new Message();
+/*                    Bundle bundle = new Bundle();
+                    bundle.putString("str", str);
+                    msg.setData(bundle);*/
+                    msg.obj = str;
+                    msg.what = UPDATE_LOCATION;
+                    //发送通知
+                    mHandler.sendMessage(msg);
+                }
+            });
+        }
+
+        // 服务奔溃或者被杀掉执行
+        @Override
+        public void onServiceDisconnected(ComponentName name) {
+            binder = null;
+        }
+    }
+
+    private class updateAsyn extends AsyncTask<Void, Integer, Void>
+    {
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+        }
+
+        @Override
+        protected void onProgressUpdate(Integer... values) {
+            super.onProgressUpdate(values);
+            //uithread展示任务执行情况
+            //Toast.makeText(MainActivity.this,"时间过去了一分钟", Toast.LENGTH_SHORT).show();
+            SharedPreferences pref = getSharedPreferences("config", MODE_PRIVATE);
+            String cityCode = pref.getString("cityCode", "101010100");
+            queryWeatherCode(cityCode);
+            AppWidgetManager manager = AppWidgetManager.getInstance(MainActivity.this);
+            //将更新widget的活动放在这里面
+            WeatherWidget.todayWeather = todayweather;
+            RemoteViews views = WeatherWidget.updateRemoteViews(MainActivity.this);
+            if(views!=null)
+            {
+                manager.updateAppWidget(appWidgetIds,views);
+            }else
+            {
+                Log.d("myinfo","更新失败");
+            }
+        }
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+            while(isrunning){
+                try {
+                    Thread.sleep(10000);//一个小时自动更新一次
+                    //Thread.sleep(10000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                publishProgress(null);
+            }
+            return null;
+        }
+    }
+
+}
 

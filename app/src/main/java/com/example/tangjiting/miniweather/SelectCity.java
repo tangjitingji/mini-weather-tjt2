@@ -2,6 +2,7 @@ package com.example.tangjiting.miniweather;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextUtils;
@@ -15,6 +16,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.tangjiting.app.MyApplication;
 import com.example.tangjiting.bean.City;
@@ -23,6 +25,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by tangjiting on 2017/10/18.
@@ -71,6 +75,9 @@ public class SelectCity extends Activity{
             @Override
             public void onClick(View v) {
                 //定位当前城市
+                SharedPreferences sharedPreferences = getSharedPreferences("config", MODE_PRIVATE);
+                String cityCode = sharedPreferences.getString("cityCode", "101010100");
+                back(cityCode);
             }
         });
         //北京101010100
@@ -192,8 +199,15 @@ public class SelectCity extends Activity{
             }
 
             @Override
-            public void afterTextChanged(Editable s) {
+            public void afterTextChanged(Editable editable) {
                 //这个方法被调用，那么说明s字符串的某个地方已经被改变。
+
+                String txt = eSearch.getText().toString();
+                Pattern p=Pattern.compile("[A-Z]");
+                Matcher m=p.matcher(txt);
+                if(!m.matches()){
+                    Toast.makeText(SelectCity.this,"请输入大写字母", Toast.LENGTH_SHORT).show();
+                }
 
             }
 

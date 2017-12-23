@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+         指定该桌面组件的基本配置信息：
+    initialLayout：初始时显示的布局
+    minWidth：桌面小控件的最小高度。
+    minWidth：桌面小控件的最小宽度。
+    updatePeriodMillis：更新频率
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="200dp"
+    android:minHeight="75dp"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/weather_widget_layout"
+    widgetCategory="keyguard|home_screen"
+    >
+</appwidget-provider>

@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="15b38590e8456080b1e9f27f6854c33c92574d2c">
+        sha1="567c767adcb616ad9299a36788185851db123195">
         <dex dex="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_36cd828f6f966fe3ff3f799b0d9e2081d2570ba0/classes.dex" />
     </item>
     <item
@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="1b9d32d91699a03ff210ced3dc4c30d2b724e97d">
+        sha1="921eac32e5ef9177cad57cb66aa594766549cebd">
         <dex dex="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/transforms/dex/debug/folders/1000/2/BaiduLBS_Android_96272ceb6a1d58fbe27388fa1ee7d38ac3ec7398/classes.dex" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="1b9d32d91699a03ff210ced3dc4c30d2b724e97d">
+        sha1="921eac32e5ef9177cad57cb66aa594766549cebd">
         <dex dex="/Users/tangjiting/AndroidStudioProjects/MiniWeather/app/build/intermediates/pre-dexed/release/BaiduLBS_Android_96272ceb6a1d58fbe27388fa1ee7d38ac3ec7398.jar" />
     </item>
 

@@ -8,6 +8,7 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b7691f2-8762-4d79-9f61-0320bec5f25f" name="Default" comment="" />
@@ -42,177 +43,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CityDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/db/CityDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5936">
+              <caret line="723" column="0" lean-forward="true" selection-start-line="723" selection-start-column="0" selection-end-line="723" selection-end-column="0" />
+              <folding>
+                <element signature="e#9967#9968#0" expanded="true" />
+                <element signature="e#10036#10037#0" expanded="true" />
+                <element signature="e#48627#49151#0" expanded="true" />
+                <element signature="e#49150#49151#0" expanded="true" />
+                <element signature="e#49268#49269#0" expanded="true" />
+                <element signature="e#49305#49306#0" expanded="true" />
+                <element signature="e#49444#49445#0" expanded="true" />
+                <element signature="e#49488#49489#0" expanded="true" />
+                <element signature="e#49558#49559#0" expanded="true" />
+                <element signature="e#49608#49609#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherWidget.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/WeatherWidget.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="33" column="71" lean-forward="false" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TodayWeather.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/bean/TodayWeather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="320" column="18" lean-forward="false" selection-start-line="320" selection-start-column="18" selection-end-line="320" selection-end-column="18" />
+            <state relative-caret-position="-518">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectCity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/SelectCity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
               <folding>
-                <element signature="e#3621#3622#0" expanded="true" />
-                <element signature="e#3649#3650#0" expanded="true" />
-                <element signature="e#3691#3692#0" expanded="true" />
-                <element signature="e#3725#3726#0" expanded="true" />
-                <element signature="e#3757#3758#0" expanded="true" />
-                <element signature="e#3785#3786#0" expanded="true" />
-                <element signature="e#3827#3828#0" expanded="true" />
-                <element signature="e#3861#3862#0" expanded="true" />
-                <element signature="e#3893#3894#0" expanded="true" />
-                <element signature="e#3921#3922#0" expanded="true" />
-                <element signature="e#3963#3964#0" expanded="true" />
-                <element signature="e#3997#3998#0" expanded="true" />
-                <element signature="e#4028#4029#0" expanded="true" />
-                <element signature="e#4055#4056#0" expanded="true" />
-                <element signature="e#4095#4096#0" expanded="true" />
-                <element signature="e#4127#4128#0" expanded="true" />
-                <element signature="e#4158#4159#0" expanded="true" />
-                <element signature="e#4185#4186#0" expanded="true" />
-                <element signature="e#4225#4226#0" expanded="true" />
-                <element signature="e#4257#4258#0" expanded="true" />
-                <element signature="e#4288#4289#0" expanded="true" />
-                <element signature="e#4315#4316#0" expanded="true" />
-                <element signature="e#4355#4356#0" expanded="true" />
-                <element signature="e#4387#4388#0" expanded="true" />
-                <element signature="e#4827#4828#0" expanded="true" />
-                <element signature="e#4855#4856#0" expanded="true" />
-                <element signature="e#4897#4898#0" expanded="true" />
-                <element signature="e#4931#4932#0" expanded="true" />
-                <element signature="e#4963#4964#0" expanded="true" />
-                <element signature="e#4991#4992#0" expanded="true" />
-                <element signature="e#5033#5034#0" expanded="true" />
-                <element signature="e#5067#5068#0" expanded="true" />
-                <element signature="e#5099#5100#0" expanded="true" />
-                <element signature="e#5127#5128#0" expanded="true" />
-                <element signature="e#5169#5170#0" expanded="true" />
-                <element signature="e#5203#5204#0" expanded="true" />
-                <element signature="e#5644#5645#0" expanded="true" />
-                <element signature="e#5672#5673#0" expanded="true" />
-                <element signature="e#5714#5715#0" expanded="true" />
-                <element signature="e#5748#5749#0" expanded="true" />
-                <element signature="e#5780#5781#0" expanded="true" />
-                <element signature="e#5808#5809#0" expanded="true" />
-                <element signature="e#5850#5851#0" expanded="true" />
-                <element signature="e#5884#5885#0" expanded="true" />
-                <element signature="e#5916#5917#0" expanded="true" />
-                <element signature="e#5944#5945#0" expanded="true" />
-                <element signature="e#5986#5987#0" expanded="true" />
-                <element signature="e#6020#6021#0" expanded="true" />
+                <element signature="e#2213#2574#0" expanded="true" />
+                <element signature="e#2573#2574#0" expanded="true" />
+                <element signature="e#2701#2852#0" expanded="true" />
+                <element signature="e#2851#2852#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/MainActivity.java">
+      <file leaf-file-name="MyApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/app/MyApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="235" column="53" lean-forward="false" selection-start-line="235" selection-start-column="53" selection-end-line="235" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2782#3089#0" expanded="true" />
-                <element signature="e#3088#3089#0" expanded="true" />
-                <element signature="e#4252#4706#0" expanded="true" />
-                <element signature="e#4705#4706#0" expanded="true" />
-                <element signature="e#4854#5141#0" expanded="true" />
-                <element signature="e#5140#5141#0" expanded="true" />
-                <element signature="e#9323#11287#0" expanded="true" />
-                <element signature="e#11286#11287#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <element signature="e#1786#1804#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="113" column="29" lean-forward="false" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Guide.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/Guide.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weatherpage2.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weatherpage2.xml">
+      <file leaf-file-name="listview_item.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listview_item.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
-              <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weatherpage1.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weatherpage1.xml">
+      <file leaf-file-name="weather_widget_layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weather_widget_layout.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="223">
+              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weather_info.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weather_info.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="weather_widget_info.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/weather_widget_info.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="304" column="55" lean-forward="false" selection-start-line="304" selection-start-column="55" selection-end-line="304" selection-end-column="55" />
-              <folding>
-                <marker date="1512049890748" expanded="true" signature="11178:11203" ph="..." />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/LocationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -228,21 +178,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>layout</find>
-      <find>888</find>
-      <find>mCityList</find>
-      <find>select_city</find>
-      <find>vi si a</find>
-      <find>pmImg</find>
-      <find>onActivityResult</find>
-      <find>static</find>
-      <find>relative</find>
-      <find>typeTv</find>
-      <find>start</find>
-      <find>acla</find>
-      <find>findView</find>
-      <find>当前</find>
-      <find>todayWeather</find>
       <find>titleName</find>
       <find>getCity</find>
       <find>arraylist</find>
@@ -250,7 +185,6 @@
       <find>putString</find>
       <find>EditText</find>
       <find>filterData</find>
-      <find>adapter</find>
       <find>back</find>
       <find>DATE</find>
       <find>更新成功</find>
@@ -258,6 +192,22 @@
       <find>TYPE</find>
       <find>onPageSelected</find>
       <find>DOT</find>
+      <find>list</find>
+      <find>guide</find>
+      <find>adapter</find>
+      <find>layout</find>
+      <find>selectcity</find>
+      <find>name</find>
+      <find>onclick</find>
+      <find>main_city_code</find>
+      <find>config</find>
+      <find>inii</find>
+      <find>initv</find>
+      <find>initView</find>
+      <find>query</find>
+      <find>cityCode</find>
+      <find>share</find>
+      <find>main_</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -1960,30 +1910,40 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/bean/City.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/db/CityDB.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/NetUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/page2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/guide.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/weatherPage1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/weatherPage2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/Guide.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/ViewPagerAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/FutureWeather.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/Locate.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/SelectActivity2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/app/MyApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_city.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/ClearEditText.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/SelectCity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/bean/TodayWeather.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/util/NetUtil.java" />
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/tangjiting/miniweather/R.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/weather_info.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/weatherpage1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/weatherpage2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/page2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/locate.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/weather_info.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/refresh.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/refresh.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_city.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/MyLocationListener.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/Locate.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/LocationService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/weather_widget_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/weather_widget_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/weather_widget_info.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/SelectCity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/WeatherWidget.java" />
       </list>
     </option>
   </component>
@@ -2010,8 +1970,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2038,25 +1997,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap" />
+              <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2083,6 +2024,14 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2092,10 +2041,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2128,28 +2073,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="tangjiting" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangjiting" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="miniweather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2208,261 +2131,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangjiting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangjiting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compileDebugJavaWithJavac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniWeather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2472,16 +2148,15 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="device.picker.selection" value="621QECPS2TTK9" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/tangjiting/AndroidStudioProjects/mini-weather-tjt-v4/app/src/main/java/com/example/tangjiting/app/MyApplication.java&#10;an&#9;ACTION&#9;ActivateAndroidMonitorToolWindow&#10;mo&#9;PSI&#9;JAVA://com.sun.tools.jdi.JDWP.ThreadReference.OwnedMonitorsStackDepthInfo.monitor&#10;and&#9;ACTION&#9;ActivateAndroidMonitorToolWindow" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
-    <property name="ExportApk.SignV1" value="true" />
-    <property name="ExportApk.SignV2" value="true" />
     <property name="android.profiler.active" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -2490,16 +2165,22 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.tangjiting.miniweather" />
       <recent name="com.example.tangjiting.bean" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/xml" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather" />
       <recent name="$PROJECT_DIR$/app/libs" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/values-en" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.tangjiting.miniweather" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2585,7 +2266,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512052996432" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513995081785" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2633,7 +2314,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512052996432" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513995081785" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2770,6 +2451,55 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="false" name="Locate" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.example.tangjiting.miniweather.Locate" />
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513995081786" />
+      </method>
+    </configuration>
     <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
@@ -2813,14 +2543,15 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
+      <option name="ACTIVITY_CLASS" value="com.example.tangjiting.miniweather.Locate" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512052996434" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513995081786" />
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android App.app" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android App.Locate" />
+      <item index="1" class="java.lang.String" itemvalue="Android App.app" />
     </list>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -2867,30 +2598,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26431718" sideWeight="0.38268957" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5586552" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26284876" sideWeight="0.6409156" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23348017" sideWeight="0.34978542" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2878412" sideWeight="0.20100144" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.48855507" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32892805" sideWeight="0.49713877" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49192363" sideWeight="0.6502146" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38913363" sideWeight="0.4828326" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15565345" sideWeight="0.7989986" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2290749" sideWeight="0.42989987" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17596567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="610" y="81" width="339" height="684" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3018598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="610" y="81" width="339" height="684" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32452276" sideWeight="0.48855507" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32382134" sideWeight="0.53576535" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -2902,43 +2632,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15271659" sideWeight="0.48855507" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22332506" sideWeight="0.47424892" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23348017" sideWeight="0.34978542" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19089574" sideWeight="0.6380544" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49192363" sideWeight="0.6502146" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32452276" sideWeight="0.48855507" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26431718" sideWeight="0.38268957" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32892805" sideWeight="0.49713877" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2290749" sideWeight="0.42989987" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17596567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="610" y="81" width="339" height="684" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15271659" sideWeight="0.48855507" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -2964,96 +2659,93 @@
           <line>865</line>
           <properties />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/util/NetUtil.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/base_action_bar_action_city.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/content/Intent.class">
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="135" column="53" lean-forward="false" selection-start-line="135" selection-start-column="52" selection-end-line="135" selection-end-column="53" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/biz_plugin_weather_daxue.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/biz_plugin_weather_dayu.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_day_duoyun.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/biz_plugin_weather_duoyun.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/title_city.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/readme.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/title_share.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/start_btn_blank.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/start.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/db/CityDB.java">
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/os/Handler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="146">
+          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/java/util/List.class">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/Guide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="1035">
+          <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/java/lang/reflect/Method.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/app/Instrumentation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="200" column="72" lean-forward="false" selection-start-line="200" selection-start-column="72" selection-end-line="200" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="1104" column="0" lean-forward="false" selection-start-line="1104" selection-start-column="0" selection-end-line="1104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/ViewPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/util/NetUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -3068,86 +2760,84 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/FutureWeather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/Locate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/text/TextWatcher.class">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/SelectActivity2.java" />
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/widget/SimpleAdapter.class">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/refresh.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/app/MyApplication.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="63" column="33" lean-forward="false" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/ClearEditText.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/refresh.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/widget/BaseAdapter.class">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_city.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weatherpage1.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="231" column="40" lean-forward="false" selection-start-line="231" selection-start-column="40" selection-end-line="231" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/bean/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/page2.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weatherpage2.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/guide.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -3158,6 +2848,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/page2.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_city.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="228" column="40" lean-forward="false" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -3167,478 +2885,32 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/SelectCity.java">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2061">
-          <caret line="174" column="0" lean-forward="true" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1774#1957#0" expanded="false" />
-            <element signature="e#1956#1957#0" expanded="false" />
-            <element signature="e#2078#2219#0" expanded="false" />
-            <element signature="e#2218#2219#0" expanded="false" />
-            <element signature="e#2346#2497#0" expanded="false" />
-            <element signature="e#2496#2497#0" expanded="false" />
-            <element signature="e#2624#2775#0" expanded="false" />
-            <element signature="e#2774#2775#0" expanded="false" />
-            <element signature="e#2902#3053#0" expanded="false" />
-            <element signature="e#3052#3053#0" expanded="false" />
-            <element signature="e#3180#3331#0" expanded="false" />
-            <element signature="e#3330#3331#0" expanded="false" />
-            <element signature="e#3458#3609#0" expanded="false" />
-            <element signature="e#3608#3609#0" expanded="false" />
-            <element signature="e#3736#3887#0" expanded="false" />
-            <element signature="e#3886#3887#0" expanded="false" />
-            <element signature="e#4014#4165#0" expanded="false" />
-            <element signature="e#4164#4165#0" expanded="false" />
-            <element signature="e#4293#4444#0" expanded="false" />
-            <element signature="e#4443#4444#0" expanded="false" />
-            <element signature="e#4572#4723#0" expanded="false" />
-            <element signature="e#4722#4723#0" expanded="false" />
-            <element signature="e#4850#5001#0" expanded="false" />
-            <element signature="e#5000#5001#0" expanded="false" />
-            <element signature="e#5128#5279#0" expanded="false" />
-            <element signature="e#5278#5279#0" expanded="false" />
-            <element signature="e#8795#8816#0" expanded="false" />
-            <element signature="e#8904#8920#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listview_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/ViewPagerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_day_yin.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/biz_plugin_weather_yin.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/tangjiting/miniweather/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="2075" column="32" lean-forward="false" selection-start-line="2075" selection-start-column="32" selection-end-line="2075" selection-end-column="32" />
-          <folding>
-            <marker date="1512052822742" expanded="true" signature="131899:132202" ph="{...}" />
-            <marker date="1512052822742" expanded="true" signature="132240:136142" ph="{...}" />
-            <marker date="1512052822742" expanded="true" signature="136180:136372" ph="{...}" />
-            <marker date="1512052822742" expanded="true" signature="136410:138988" ph="{...}" />
-            <marker date="1512052822742" expanded="true" signature="139025:168413" ph="{...}" />
-            <marker date="1512052822742" expanded="true" signature="168454:444922" ph="{...}" />
-            <marker date="1512052822742" expanded="true" signature="168464:173910" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="174421:174910" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="174978:175640" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="175713:176379" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="176454:177245" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="177318:178131" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="178215:179008" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="179082:179877" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="179952:180747" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="180822:181645" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="181734:182247" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="182327:183276" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="183347:183830" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="183894:184673" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="184740:185513" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="185576:186193" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="186270:186773" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="186848:187337" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="187405:187882" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="187943:188464" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="188548:189331" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="189400:189877" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="189938:190606" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="190677:191166" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="191234:192031" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="192107:192608" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="192682:193309" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="193374:193877" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="193951:194572" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="194634:195131" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="195202:195672" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="195769:195994" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="196079:196540" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="196640:196856" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="196938:197004" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="197090:198430" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="198594:199084" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="199152:199815" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="199888:200388" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="200461:201235" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="201299:201803" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="201878:202376" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="202448:203222" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="203335:203886" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="203989:204650" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="204737:206296" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="206473:206678" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="206751:207264" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="207344:207843" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="207916:208407" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="208476:208989" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="209069:209668" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="209736:210251" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="210332:210958" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="211070:211276" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="211353:211849" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="211924:212925" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="213059:213267" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="213344:213836" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="213908:214603" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="214679:215532" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="215612:217180" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="217365:217594" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="217683:217906" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="217992:218217" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="218304:218531" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="218619:218846" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="218934:219157" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="219243:219472" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="219561:220221" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="220332:220559" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="220646:221223" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="221299:245299" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="247099:247605" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="247684:248204" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="248290:248802" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="248884:249946" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="250022:250534" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="250616:251118" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="251195:251709" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="251792:252300" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="252380:252896" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="252980:253482" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="253559:254073" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="254156:254664" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="254744:255256" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="255338:255860" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="255947:256622" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="256704:257218" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="257301:257827" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="257916:258436" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="258522:259040" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="259125:259641" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="259725:260243" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="260328:260848" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="260934:261460" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="261549:262077" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="262167:262687" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="262773:263297" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="263385:263889" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="263967:264495" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="264585:265109" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="265197:265717" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="265803:266325" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="266412:266940" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="267030:267662" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="267749:268255" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="268334:268840" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="268919:269155" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="269245:269473" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="269559:270083" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="270172:270688" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="270772:271286" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="271369:271899" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="271990:272518" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="272609:273139" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="273230:273732" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="273809:274305" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="274380:274886" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="274966:275466" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="275543:276057" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="276141:276832" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="276906:277621" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="277707:278410" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="278490:279201" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="279285:279996" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="280080:280785" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="280866:281559" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="281634:282335" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="282414:283127" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="283212:283720" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="283800:284610" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="284695:285191" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="285265:285773" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="285853:286357" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="286435:286951" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="287035:287863" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="287957:288467" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="288548:289211" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="289287:289787" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="289864:290372" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="290452:290958" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="291037:291569" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="291661:292179" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="292264:292772" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="292853:293367" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="293450:294262" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="294348:295170" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="295261:296083" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="296174:296996" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="297087:297911" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="298003:298507" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="298585:299095" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="299176:299978" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="300059:300561" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="300638:301144" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="301223:301729" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="301809:302311" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="302389:302909" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="302996:303508" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="303591:304095" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="304173:304671" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="304747:305269" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="305356:305898" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="305995:306517" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="306604:307102" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="307178:307674" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="307749:308279" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="308370:308888" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="308973:309501" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="309591:310123" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="310215:310757" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="310854:311390" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="311484:312014" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="312105:312798" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="312889:313562" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="313643:314173" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="314264:314762" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="314837:315451" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="315528:316156" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="316240:316870" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="316955:318018" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="318102:319165" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="319249:320310" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="320393:321454" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="321537:322594" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="322676:323733" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="323815:324425" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="324500:324978" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="325075:325686" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="325762:326539" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="326663:327244" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="327315:327525" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="327604:327814" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="327893:328698" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="328818:329026" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="329102:329791" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="329863:330655" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="330731:332497" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="332692:333491" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="333571:334372" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="334453:335240" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="335314:335996" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="336066:336859" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="336936:337733" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="337812:338415" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="338488:339275" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="339349:341335" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="341555:341785" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="341874:342124" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="342223:342437" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="342518:342740" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="342825:343043" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="343126:343618" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="343691:344489" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="344569:345203" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="345292:346044" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="346122:347204" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="347347:347582" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="347677:347910" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="348004:348237" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="348331:348562" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="348655:349357" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="349466:349711" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="349806:350047" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="350140:351350" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="351513:351738" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="351820:352025" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="352097:352292" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="352359:352574" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="352651:352872" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="352952:353157" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="353229:356525" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="356879:357371" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="357440:358088" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="358164:358804" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="358876:359102" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="359184:359392" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="359466:359670" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="359741:359945" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="360016:360214" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="360282:360476" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="360542:360756" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="360832:361052" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="361132:361336" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="361408:361628" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="361707:361907" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="361976:362194" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="362272:362476" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="362547:363193" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="363268:364082" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="364151:364783" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="364851:366712" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="366922:367144" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="367224:367448" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="367529:367747" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="367825:368057" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="368142:368368" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="368450:368670" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="368749:368979" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="369063:369679" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="369754:370246" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="370314:371138" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="371255:371486" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="371572:371795" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="371877:372484" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="372556:373082" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="373190:373822" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="373914:374617" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="374726:375537" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="375622:376423" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="376503:379654" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="379986:380196" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="380271:380483" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="380559:380769" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="380844:381052" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="381126:381614" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="381681:382171" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="382240:382884" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="382958:383440" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="383504:384120" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="384196:384678" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="384742:385242" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="385316:385946" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="386013:386511" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="386584:387074" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="387143:387645" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="387720:388228" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="388306:388794" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="388862:389910" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="390059:390274" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="390350:390553" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="390623:390842" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="390920:391121" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="391190:391677" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="391742:394416" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="394702:394910" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="394985:395191" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="395265:395469" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="395542:396140" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="396209:396811" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="396882:397674" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="397749:398539" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="398613:399125" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="399205:400001" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="400077:400762" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="400831:401674" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="401747:402229" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="402294:402979" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="403048:403891" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="403964:405897" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="406125:406343" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="406424:406636" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="406714:406926" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="407004:407224" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="407306:407520" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="407599:407821" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="407904:408116" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="408194:408408" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="408487:408699" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="408777:409351" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="409424:414817" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="415326:415529" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="415599:415806" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="415878:416512" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="416581:417242" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="417324:417815" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="417883:418672" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="418742:419553" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="419635:420426" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="420497:421290" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="421362:422155" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="422227:423048" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="423134:423609" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="423668:424307" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="424378:425167" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="425238:425903" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="425987:426482" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="426552:427039" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="427105:427730" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="427793:428304" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="428382:429078" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="429151:429770" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="429830:430611" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="430678:431471" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="431544:432331" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="432401:433192" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="433264:434051" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="434121:434904" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="434972:435477" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="435552:436242" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="436312:437319" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="437465:437669" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="437738:437934" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="437999:438775" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="438837:439617" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="439681:440155" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="440212:441095" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="441221:441443" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="441529:442232" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="442314:443120" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="443206:443953" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="444073:444273" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="444345:444561" ph="/**...*/" />
-            <marker date="1512052822742" expanded="true" signature="444641:444849" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/util/NetUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/net/ConnectivityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="39" />
+        <state relative-caret-position="570">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -3648,127 +2920,53 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="304" column="55" lean-forward="false" selection-start-line="304" selection-start-column="55" selection-end-line="304" selection-end-column="55" />
-          <folding>
-            <marker date="1512049890748" expanded="true" signature="11178:11203" ph="..." />
-          </folding>
+        <state relative-caret-position="885">
+          <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weatherpage1.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/MyLocationListener.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/Locate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/db/CityDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/LocationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/weather_widget_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/locate.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="90">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weatherpage2.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/guide.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/bean/TodayWeather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="320" column="18" lean-forward="false" selection-start-line="320" selection-start-column="18" selection-end-line="320" selection-end-column="18" />
-          <folding>
-            <element signature="e#3621#3622#0" expanded="true" />
-            <element signature="e#3649#3650#0" expanded="true" />
-            <element signature="e#3691#3692#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#3757#3758#0" expanded="true" />
-            <element signature="e#3785#3786#0" expanded="true" />
-            <element signature="e#3827#3828#0" expanded="true" />
-            <element signature="e#3861#3862#0" expanded="true" />
-            <element signature="e#3893#3894#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3963#3964#0" expanded="true" />
-            <element signature="e#3997#3998#0" expanded="true" />
-            <element signature="e#4028#4029#0" expanded="true" />
-            <element signature="e#4055#4056#0" expanded="true" />
-            <element signature="e#4095#4096#0" expanded="true" />
-            <element signature="e#4127#4128#0" expanded="true" />
-            <element signature="e#4158#4159#0" expanded="true" />
-            <element signature="e#4185#4186#0" expanded="true" />
-            <element signature="e#4225#4226#0" expanded="true" />
-            <element signature="e#4257#4258#0" expanded="true" />
-            <element signature="e#4288#4289#0" expanded="true" />
-            <element signature="e#4315#4316#0" expanded="true" />
-            <element signature="e#4355#4356#0" expanded="true" />
-            <element signature="e#4387#4388#0" expanded="true" />
-            <element signature="e#4827#4828#0" expanded="true" />
-            <element signature="e#4855#4856#0" expanded="true" />
-            <element signature="e#4897#4898#0" expanded="true" />
-            <element signature="e#4931#4932#0" expanded="true" />
-            <element signature="e#4963#4964#0" expanded="true" />
-            <element signature="e#4991#4992#0" expanded="true" />
-            <element signature="e#5033#5034#0" expanded="true" />
-            <element signature="e#5067#5068#0" expanded="true" />
-            <element signature="e#5099#5100#0" expanded="true" />
-            <element signature="e#5127#5128#0" expanded="true" />
-            <element signature="e#5169#5170#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5672#5673#0" expanded="true" />
-            <element signature="e#5714#5715#0" expanded="true" />
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5780#5781#0" expanded="true" />
-            <element signature="e#5808#5809#0" expanded="true" />
-            <element signature="e#5850#5851#0" expanded="true" />
-            <element signature="e#5884#5885#0" expanded="true" />
-            <element signature="e#5916#5917#0" expanded="true" />
-            <element signature="e#5944#5945#0" expanded="true" />
-            <element signature="e#5986#5987#0" expanded="true" />
-            <element signature="e#6020#6021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/Guide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="235" column="53" lean-forward="false" selection-start-line="235" selection-start-column="53" selection-end-line="235" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2782#3089#0" expanded="true" />
-            <element signature="e#3088#3089#0" expanded="true" />
-            <element signature="e#4252#4706#0" expanded="true" />
-            <element signature="e#4705#4706#0" expanded="true" />
-            <element signature="e#4854#5141#0" expanded="true" />
-            <element signature="e#5140#5141#0" expanded="true" />
-            <element signature="e#9323#11287#0" expanded="true" />
-            <element signature="e#11286#11287#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3777,35 +2975,97 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listview_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/weather_widget_info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/app/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="113" column="29" lean-forward="false" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/SelectCity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
           <folding>
-            <element signature="e#1786#1804#0" expanded="true" />
+            <element signature="e#2213#2574#0" expanded="true" />
+            <element signature="e#2573#2574#0" expanded="true" />
+            <element signature="e#2701#2852#0" expanded="true" />
+            <element signature="e#2851#2852#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/bean/TodayWeather.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="-518">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/weather_widget_layout.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="223">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/WeatherWidget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="209">
+          <caret line="33" column="71" lean-forward="false" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tangjiting/miniweather/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5936">
+          <caret line="723" column="0" lean-forward="true" selection-start-line="723" selection-start-column="0" selection-end-line="723" selection-end-column="0" />
+          <folding>
+            <element signature="e#9967#9968#0" expanded="true" />
+            <element signature="e#10036#10037#0" expanded="true" />
+            <element signature="e#48627#49151#0" expanded="true" />
+            <element signature="e#49150#49151#0" expanded="true" />
+            <element signature="e#49268#49269#0" expanded="true" />
+            <element signature="e#49305#49306#0" expanded="true" />
+            <element signature="e#49444#49445#0" expanded="true" />
+            <element signature="e#49488#49489#0" expanded="true" />
+            <element signature="e#49558#49559#0" expanded="true" />
+            <element signature="e#49608#49609#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

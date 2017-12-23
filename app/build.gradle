@@ -1,14 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'key0'
-            keyPassword '904905'
-            storeFile file('/Users/tangjiting/AndroidStudioProjects/MiniWeather/keystore.jks')
-            storePassword '904905'
-        }
-    }
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
     defaultConfig {
@@ -19,15 +11,10 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-    sourceSets {
-        main {
-            jniLibs.srcDirs = ['libs']
+    sourceSets{
+        main{
+            jniLibs.srcDir 'libs'
+            jni.srcDirs = []
         }
     }
 }
@@ -42,3 +29,42 @@ dependencies {
     compile files('libs/pinyin4j-2.5.0.jar')
     compile files('libs/BaiduLBS_Android.jar')
 }
+
+//buildscript {
+//    // 添加MobSDK的maven地址
+//    repositories {
+//        maven {
+//            url "http://mvn.mob.com/android"
+//        }
+//    }
+//
+//    dependencies {
+//        // 注册MobSDK
+//        classpath "com.mob.sdk:MobSDK:+"
+//    }
+//}
+//## 在使用ShareSDK模块的build.gradle中，添加MobSDK插件和扩展，如：
+
+// 添加插件
+//apply plugin: "com.mob.sdk"
+
+// 在MobSDK的扩展中注册ShareSDK的相关信息
+//MobSDK {
+//    appKey "d580ad56b4b5"
+//    appSecret "7fcae59a62342e7e2759e9e397c82bdd"
+//
+//    ShareSDK {
+//        devInfo {
+//            SinaWeibo {
+//                appKey "568898243"
+//                appSecret "38a4f8204cc784f81f9f0daaf31e02e3"
+//                callbackUri "http://www.sharesdk.cn"
+//                shareByAppClient false
+//            }
+//            Wechat {
+//                appId "wx4868b35061f87885"
+//                appSecret "64020361b8ec4c99936c0e3999a9f249"
+//            }
+//        }
+//    }
+//}
